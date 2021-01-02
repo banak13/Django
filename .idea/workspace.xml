@@ -1,20 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8c94e798-472b-470c-98a8-474062581615" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/django/apps/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/django/apps/public/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/django/apps/public/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/django/apps/public/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/django/apps/public/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/django/apps/public/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/django/apps/public/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/django/apps/public/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/django/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/django/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/django/mysite/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/django/mysite/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/django/mysite/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/django/mysite/views.py" afterDir="false" />
-    </list>
+    <list default="true" id="8c94e798-472b-470c-98a8-474062581615" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,12 +15,7 @@
       </list>
     </option>
   </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="UPDATE_TYPE" value="REBASE" />
-  </component>
   <component name="ProjectId" id="1mOPC5m7kbuZxEKR4zQivnyI2FV" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -42,7 +24,6 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -88,27 +69,7 @@
       <option name="presentableId" value="Default" />
       <updated>1609361533948</updated>
     </task>
-    <task id="LOCAL-00001" summary="create docker login">
-      <created>1609544331018</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1609544331018</updated>
-    </task>
-    <task id="LOCAL-00002" summary="create django login">
-      <created>1609545166519</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1609545166519</updated>
-    </task>
-    <option name="localTasksCounter" value="3" />
     <servers />
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="create docker login" />
-    <MESSAGE value="create django login" />
-    <option name="LAST_COMMIT_MESSAGE" value="create django login" />
   </component>
   <component name="WindowStateProjectService">
     <state x="254" y="85" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1609420176869">
@@ -123,29 +84,13 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="509" y="25" key="#urls/0.0.1600.860@0.0.1600.860" timestamp="1609505833437" />
-    <state x="501" y="0" key="CommitChangelistDialog2" timestamp="1609545165766">
-      <screen x="0" y="0" width="1600" height="860" />
-    </state>
-    <state x="501" y="0" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1609545165766" />
     <state x="667" y="185" key="EnvironmentVariablesDialog" timestamp="1609420152939">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="667" y="185" key="EnvironmentVariablesDialog/0.0.1600.860@0.0.1600.860" timestamp="1609420152939" />
-    <state x="980" y="175" key="FileChooserDialogImpl" timestamp="1609544019016">
+    <state x="38" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1609533318120">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="980" y="175" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1609544019016" />
-    <state x="784" y="166" key="Vcs.Push.Dialog.v2" timestamp="1609545207508">
-      <screen x="0" y="0" width="1600" height="860" />
-    </state>
-    <state x="784" y="166" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1609545207508" />
-    <state x="1009" y="347" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1609545189349">
-      <screen x="0" y="0" width="1600" height="860" />
-    </state>
-    <state x="1009" y="347" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1600.860@0.0.1600.860" timestamp="1609545189349" />
-    <state x="38" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1609495379438">
-      <screen x="0" y="0" width="1600" height="860" />
-    </state>
-    <state x="38" y="181" width="672" height="678" key="search.everywhere.popup/0.0.1600.860@0.0.1600.860" timestamp="1609495379438" />
+    <state x="38" y="181" width="672" height="678" key="search.everywhere.popup/0.0.1600.860@0.0.1600.860" timestamp="1609533318120" />
   </component>
 </project>
