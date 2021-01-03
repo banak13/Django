@@ -22,13 +22,10 @@ urlpatterns = [
 
     path('profile', views.ProfileView.as_view(), name='profile'),
 
-# Django Auth
-    path(
-        'login',
-        auth_views.LoginView.as_view(template_name="accounts/login.html"),
-        name='login',
-    ),
-    path('logout', auth_views.LogoutView.as_view(), name='logout'),
+# # Django Auth
+     path('login', auth_views.LoginView.as_view(template_name="accounts/login.html"), name='login'),
+     path('logout', auth_views.LogoutView.as_view(), name="accounts/logout.html"),
 
-
+#   path('login/', auth_views.LoginView.as_view(template_name='accounts/login.html'), name='login'),
+#  path('logout/', auth_views.LogoutView.as_view(), name='logout'),
 ]
