@@ -1,9 +1,20 @@
 {% extends 'base.html' %}
+{% load static %}
 
-{% block title %}Trener Tenisa{% endblock %}
+{% block title %}Login{% endblock %}
+
 {% block content %}
-<h1>
-    Template Homepage
-</h1>
+<!-- Masthead-->
+        <header class="masthead text-white text-center">
+            <div class="container d-flex align-items-center flex-column">
+                <!-- Masthead Avatar Image-->
+                <img class="masthead-avatar mb-5" src="{% static '/img/profilowe.jpg' %}" alt="" />
+                <!-- Masthead Heading-->
+                <h1 class="masthead-heading text-uppercase mb-0">Zacznij teraz!</h1>
+
+            </div>
+        </header>
+<h2>WELCOME</h2>
+
 
 {% endblock %}

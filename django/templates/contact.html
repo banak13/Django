@@ -1,9 +1,63 @@
 {% extends 'base.html' %}
 
 {% block title %}Contact{% endblock %}
-{% block content %}
-<H1>
-    Contact
-</H1>
 
+{% block content %}
+<section class="page-section" id="contact">
+    <div class="container">
+        <!--Contact Section Heading-->
+        <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Contact Us</h2>
+        <!-- Icon Divider-->
+        <div class="divider-custom">
+            <div class="divider-custom-line"></div>
+            <div class="divider-custom-icon"><i class="fas fa-envelope"></i></div>
+            <div class="divider-custom-line"></div>
+        </div>
+
+            <div class="text-center text-secondary mb-0">
+                <p>
+                    We do our best to respond to emails, but we get so many that it's sometimes hard to respond to all of them. If you don't...
+                </p>
+                <p>
+                    If you need help with a coding project, please dont't send us an email. We don't have enough bandwidth to answer secificeted...
+                </p>
+                <p>
+                    You can also send us an email at <a href="mailto:banak13@email.pl">banak13@o2.pl</a>
+                </p>
+            </div>
+
+        <!-- Contact Section Form-->
+        <div class="row">
+            <div clas="col-lg-8 mx-auto">
+                <!-- To configure the contact form email adress, go to mail/contact_me.php and update the email address in the PHP file on... -->
+                <form id="contactForm" name="sentMessage" novalidate="novalidate">
+                    <div class="control-group">
+                        <div class="form-group floating-label-form-group controls mb-0 pb-2">
+                            <label>Name</label>
+                            <input class="form-control" id="name" type="text" placeholder="Name" required="required" data-validation-required-message="Please enter your name."/>
+                            <p class="help-block text-danger"></p>
+                        </div>
+                    </div>
+                    <div class="control-group">
+                        <div class="form-group floating-label-form-group controls mb-0 pb-2">
+                            <label>Email Address</label>
+                            <input class="form-control" id="email" placeholder="Email Address" required="required" data-validation-required-message="Please enter your name."/>
+                            <p class="help-block text-danger"></p>
+                        </div>
+                    </div>
+                    <div class="control-group">
+                        <div class="form-group floating-label-form-group controls mb-0 pb-2">
+                            <label>Message</label>
+                            <textarea class="form-control" id="message" rows="5" placeholder="Meassage" required data-validation-required-message="Please enter your email."></textarea>
+                            <p class="help-block text-danger"></p>
+                        </div>
+                    </div>
+                    <br />
+                    <div id="success"></div>
+                    <div class="form-group"><button class="btn hs-bg-primary btn-xl text-white" id="sendMessageButton" type="submit">Send</button></div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
 {% endblock %}
