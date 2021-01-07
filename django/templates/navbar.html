@@ -29,7 +29,7 @@
     <span>{% if request.path == contact_url %}Contact{% else %}<a href="{{ contact_url }}">Contact</a>{% endif %}</span>
 
     <span style="float:right">
-        {% if user.is.authenticated %}
+        {% if user.is_authenticated %}
 
         <span> Hi {{ user.username}}!{% if request.path == profile_url %}{% else %}<a href="{{ profile_url}}">{{user.username}}</a>{% endif %}!
             <a href="{% url 'accounts:logout' %}">Logout</a></span>
